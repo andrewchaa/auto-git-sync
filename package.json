@@ -1,0 +1,31 @@
+{
+  "name": "auto-git-sync",
+  "displayName": "Auto Git Sync",
+  "description": "Automatically syncs your workspace with your Git repository after 5 minutes of inactivity.",
+  "version": "0.0.1",
+  "publisher": "DeepeyesUK",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {},
+  "scripts": {
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.88.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "20.x",
+    "eslint": "^8.57.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.4.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
