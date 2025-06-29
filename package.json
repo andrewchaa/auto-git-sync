@@ -4,6 +4,7 @@
   "description": "Automatically syncs your workspace with your Git repository after 5 minutes of inactivity.",
   "version": "0.0.1",
   "publisher": "DeepeyesUK",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/andrewchaa/auto-git-sync.git"
